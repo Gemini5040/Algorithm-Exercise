@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"d:\\算法训练\\icpc网络赛\\2. C. Jiaxun!.cpp","tests":[{"id":1757988010938,"input":" 4\n 36\n 14 4 3 2 9 0 4\n 41\n 4 8 4 4 3 14 4\n 53\n 3 0 12 6 14 11 7\n 55\n 11 10 11 10 2 8 3","output":"11\n 13\n 17\n 18"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\算法训练\\icpc网络赛\\2. C. Jiaxun!.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: J","url":"d:\\算法训练\\牛客暑期2025\\5\\J.cpp","tests":[{"id":1753888160774,"input":"3 3\n0 0 0\n0 0 0\n0 0 1","output":"2"},{"id":1753888181351,"input":"2 2\n1 0\n0 0","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\算法训练\\牛客暑期2025\\5\\J.cpp","group":"local","local":true}
