@@ -1,0 +1,1 @@
+{"name":"Local: 数字王国的警报密码gm版","url":"/home/gjh/Documents/算法训练/2026restart/数字王国的警报密码gm版.cpp","tests":[{"id":1774342957125,"input":"3\n3 10\n2 3\n100 1\n","output":"1 2 3\n1 4\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/gjh/Documents/算法训练/2026restart/数字王国的警报密码gm版.cpp","group":"local","local":true}
