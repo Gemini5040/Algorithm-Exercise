@@ -1,0 +1,1 @@
+{"name":"Local: 微缩庭园","url":"d:\\Algorithm-Exercise\\2026restart\\微缩庭园.cpp","tests":[{"id":1777011475099,"input":"5\n1 1\n2 2\n3 3\n4 4\n5 5\n","output":"1\n0\n5\n4\n13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Algorithm-Exercise\\2026restart\\微缩庭园.cpp","group":"local","local":true}
