@@ -2,7 +2,6 @@
 using namespace std;
 
 #define int long long
-#define double long double
 #define endl "\n"
 using ll=long long;
 using ull=unsigned long long;
@@ -21,20 +20,20 @@ mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 ull rnd(ull l=0ull,ull r=-1ull){return uniform_int_distribution<ull>(l,r)(rng);}
 
 void solve(){
-	int m,r,c;
-	cin>>m>>r>>c;
-
-	double ans=0;
-	int cnt=(c+m+r-1)/(m+r);
-	int l=(m+r)*cnt-r;
-
-	if(l<c){
-		ans=max(1.0*m*(cnt+1)/(l+m+r),1.0*m*cnt/c);
-	}else{
-		ans=1.0*m*cnt/l;
+	int n;
+	cin>>n;
+	int ma=-inf,sum=0;
+	int t;
+	for(int i=0;i<n;i++){
+		cin>>t;
+		sum+=t;
+		ma=max(ma,t);
 	}
-
-	cout<<ans<<endl;
+	if(sum%2==0){
+		cout<<ma/2<<endl;
+	}else{
+		cout<<ma/2+(ma%2==1)<<endl;
+	}
 }
 
 signed main(){
@@ -42,10 +41,8 @@ signed main(){
 	cin.tie(0);
 	cout.tie(0);
 	
-	cout<<fixed<<setprecision(12);
-
 	int T=1;
-	cin>>T;
+	// cin>>T;
 	
 	while(T--){
 		solve();
